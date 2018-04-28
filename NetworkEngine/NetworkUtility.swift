@@ -24,6 +24,18 @@ public enum NetworkError: Error {
     case failedToParseJSON(_: JSON, _: ResponseProtocol)
 }
 
+struct Constants {
+    
+    public enum ServerConfig: String {
+        case endpoint   =    "endpoint"
+        case base       =    "base"
+        case pathAPI    =    "path"
+        case name       =    "name"
+        case headers    =    "headers"
+        case apiKey     =    "apiAccessKey"
+    }
+}
+
 public enum RequestMethod: String {
     case get    = "GET"
     case post    = "POST"

@@ -15,11 +15,9 @@ class Service: ServiceProtocol {
     
     var headers: HeadersDict
     
-    required init(configuration: ServiceConfig, retrier: RequestRetrier, adapter: RequestAdapter) {
+    required init(configuration: ServiceConfig) {
         self.configuration = configuration
         self.headers = configuration.headers
-        sessionManager.retrier = retrier
-        sessionManager.adapter = adapter
     }
     
     func execute(request: RequestProtocol, completion: @escaping (ResponseProtocol) -> Void) {

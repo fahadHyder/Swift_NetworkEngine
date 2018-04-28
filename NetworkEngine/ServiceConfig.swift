@@ -29,17 +29,14 @@ public final class ServiceConfig {
     }
     
     public convenience init?() {
-        //get server configuration from Info.plist
+        //get server configuration from Info.plist, This is one way of get service information.You could write your own service config
+        
         let appCnfg = JSON(Bundle.main.object(forInfoDictionaryKey: Constants.ServerConfig.endpoint.rawValue) as Any)
         guard let base = appCnfg[Constants.ServerConfig.base.rawValue].string else {
             return nil
         }
         
         self.init(name: appCnfg[Constants.ServerConfig.name.rawValue].string, base: base)
-        
-        if let apiKey = appCnfg[Constants.ServerConfig.apiKey.rawValue].string {
-            ServiceConfig.apiKey = apiKey
-        }
         
         if let fixedHeaders = appCnfg[Constants.ServerConfig.headers.rawValue].dictionaryObject as? HeadersDict {
             self.headers = fixedHeaders

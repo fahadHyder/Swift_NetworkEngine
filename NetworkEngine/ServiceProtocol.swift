@@ -12,7 +12,7 @@ import Alamofire
 public protocol ServiceProtocol {
     var configuration: ServiceConfig { get }
     var headers: HeadersDict { get set }
-    init(configuration: ServiceConfig, retrier: RequestRetrier, adapter: RequestAdapter)
+    init(configuration: ServiceConfig)
     func execute(request: RequestProtocol, completion: @escaping (ResponseProtocol) -> Void)
 }
 
