@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
-  s.name             = 'NetworkEngine'
-  s.version          = '0.1.0'
-  s.summary          = 'NetworkEngine will help you to make Api calls with out writing tons of boilerplate code.'
+  s.name             = 'NetworkMediator'
+  s.version          = '0.1.1'
+  s.summary          = 'NetworkMediator will help you to make Api calls with out writing tons of boilerplate code.'
  
   s.description      = <<-DESC
-NetworkEngine will help you to make Api calls with out writing tons of boilerplate code!.The current release has a dependency with Alamofire which will be removed in future so that you could add normal NSURLSession or any other dependency in the lowest abstarction.
+NetworkMediator will help you to make Api calls with out writing tons of boilerplate code!.The current release has a dependency with Alamofire which will be removed in future so that you could add normal NSURLSession or any other dependency in the lowest abstarction.
                        DESC
  
   s.homepage         = 'https://github.com/fahadHyder/Swift_NetworkEngine.git'
