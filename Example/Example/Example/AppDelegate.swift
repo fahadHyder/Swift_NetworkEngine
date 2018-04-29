@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  Example
 //
-//  Created by fahad c h on 28/04/18.
-//  Copyright © 2018 Litmus7. All rights reserved.
+//  Created by fahad c h on 01/04/18.
+//  Copyright © 2018 FahadHyder. All rights reserved.
 //
 
 import UIKit

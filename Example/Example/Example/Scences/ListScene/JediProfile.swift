@@ -1,9 +1,8 @@
 //
 //  JediProfile.swift
-//  SqliteDemo
 //
-//  Created by fahad c h on 25/12/17.
-//  Copyright © 2017 Litmus7. All rights reserved.
+//  Created by fahad c h on 01/04/18.
+//  Copyright © 2018 FahadHyder. All rights reserved.
 //
 
 import Foundation
