@@ -1,5 +1,5 @@
 # NetworkEngine
-NetworkEngine will help you to make API call easily with out the overhead of writing tons of boilerplate codes.
+NetworkEngine will help you to make API call easily with out the overhead of writing tons of boilerplate codes. Currently it has dependency with two awesome frameworks [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) and [Alamofire](https://github.com/Alamofire/Alamofire), but in future we will re-write the engine in such a way that, there won't be any hardcoded dependency.
 
 # Quick Start
 
