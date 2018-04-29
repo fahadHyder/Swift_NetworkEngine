@@ -55,4 +55,4 @@ StartWarsOperation().execute(in: service) { [weak self] (startWarsResponse, resu
     }
 }
 ```
-For more details please check [Example](Swift_NetworkEngine/Example/)
+For more details please check [Example](https://github.com/fahadHyder/Swift_NetworkEngine/tree/master/Example/Example)
