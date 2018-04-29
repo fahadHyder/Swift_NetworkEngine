@@ -45,7 +45,7 @@ public struct StarWarsCharacterResponseModel:Codable {
 Finaly, create a ServiceConfig and Service to make API call.
 
 ```swift
-//You could configure your own service instance different config.
+//You could configure your own service instance with different config setup.
 let serviceConfig = ServiceConfig(name: "StarWars", base: "https://swapi.co/api")
 let service = Service(configuration: serviceConfig!)
 StartWarsOperation().execute(in: service) { [weak self] (startWarsResponse, resultType) in
