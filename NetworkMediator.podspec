@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'NetworkMediator'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'NetworkMediator will help you to make Api calls with out writing tons of boilerplate code.'
  
   s.description      = <<-DESC
